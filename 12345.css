@@ -1,0 +1,157 @@
+
+body
+{
+  background: rgb(236,130,24);
+  background: radial-gradient(circle, rgba(236,130,24,1) 0%, rgba(70,240,101,0.9192051820728291) 100%);
+}
+.addUser{
+  background-color:rgba(42, 165, 104, 0.925);
+  width: 150px;
+  height: 80px;
+  font-size: 22px;
+  position: relative;
+  top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px;
+  border-radius: 10px;
+  border: solid 3px rgba(6, 34, 20, 0.527);
+  transition: background-color 0.2s;
+}
+.addUser:hover{
+  background-color:rgb(59, 192, 126);
+  border: solid 3px rgba(39, 92, 65, 0.678);
+}
+
+.sex{
+  height: 30px;
+  width: 40px;
+  background-color:rgb(240, 130, 90);
+  border: solid 2px rgb(131, 69, 47);
+  font-size: 21px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.sexActive{
+  border: solid 2px rgb(78, 38, 24);
+  transition: background-color 0.4s;
+  height: 30px;
+  width: 40px;
+  background-color:rgb(172, 64, 24);
+  font-size: 22px;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 6px;
+}
+.userParametr{
+  padding: 7px;
+  min-height: 255px;
+  width: 200px;
+  background-color:rgba(56, 129, 93, 0.932);
+  margin: auto;
+border: solid 4px rgba(0, 0, 0, 0.295);
+border-radius: 10px;
+margin-top: 50px;
+}
+#doneUserParametr{
+  background-color:rgb(240, 130, 90);
+  height: 40px;
+  width: 150px;
+  margin: auto;
+  position:relative;
+  bottom:-30px;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px rgb(78, 38, 24);
+  transition: background-color 0.2s;
+}
+#doneUserParametr:hover{
+  background-color:rgb(212, 97, 55);
+  border: solid 2px rgb(121, 61, 40);
+}
+.userList{
+  width: 150px;
+  min-height: 400px;
+  background-color:rgb(59, 192, 126);
+  border: solid 4px rgba(39, 92, 65, 0.678);
+  color: rgb(92, 61, 24);
+  font-size: 25px;
+  border-radius: 25px;
+  position: fixed;
+  top: 50px;
+  padding: 10px;
+}
+.userInList{
+  width: 110px;
+  height: 70px;
+  background-color:rgb(240, 130, 90);
+  font-size: 17px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.4s, width 0.4s, opacity 0.4s;
+
+  border: solid 2px rgba(54, 35, 10, 0.808);
+  padding: 5px;
+}
+.gameStart{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(59, 192, 126);
+  border: solid 5px rgba(121, 62, 40, 0.521);
+  color: rgb(92, 61, 24);
+  font-size: 25px;
+  border-radius: 25px;
+  position: fixed;
+  top: 50px;
+  right: -170px;
+  transition: right 0.5s;
+  padding: 10px;
+}
+.gameStart:hover{
+  right: 20px;
+}
+.trueOrAction{
+  height: 300px;
+  width: 450px;
+  background-color:rgb(59, 192, 126);
+  border: solid 5px rgba(121, 62, 40, 0.87);
+  border-radius: 25px;
+  margin:auto;
+  margin-top: 150px;
+  padding: 40px;
+}
+.buttonTorA{
+  width: 130px;
+  height: 100px;
+  background-color:rgb(240, 130, 90);
+  margin: 35px;
+  font-size: 23px;
+}
+.textPerformance{
+  font-size: 24px;
+}
+.buttSkipOrDone{
+  width: 135px;
+  height: 70px;
+  background-color:rgb(240, 130, 90);
+  font-size: 21px;
+  margin: 40px;
+}
+.gameReload{
+  width: 110px;
+  height: 40px;
+  background-color:rgba(59, 192, 125, 0.849);
+  border: solid 2px rgba(121, 62, 40, 0.349);
+  border-radius: 35px;
+  font-size: 10px;
+  position: fixed;
+top: 90%;
+left: 90%;
+}
